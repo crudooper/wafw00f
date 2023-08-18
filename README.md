@@ -25,6 +25,10 @@
   </a>
 </p>
 
+> __Note__
+
+This is a modified version of WAFW00F from JamesConlan96 to be able to install it with pip. Thanks to him
+
 ## How does it work?
 
 To do its magic, WAFW00F does the following:
@@ -250,9 +254,11 @@ $   wafw00f https://example.org
 
 ## How do I install it?
 
-The following should do the trick:
+The following should do the trick (thanks to JamesConlan96):
 
 ```
+pipx install 'git+https://github.com/crudooper/wafw00f.git'
+or
 python setup.py install
 ```
 
